@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>timestamp api | anquitas</title>
+  <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link href="home-style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <main>
+  <h1 class="seperate">TIMESTAMP MICROSERVICE</h1>
+  <hr>
+  <nav>
+    <ul>
+      <li><a href="api/hello" class=" api-link">hello</a></li>
+      <li><a href="api" class=" api-link">api</a></li>
+      <li><a href="info" class=" api-link">info</a></li>
+    </ul>
+  </nav>
+<p>if you want you can directly input the date you want to try in either type</p>
+<div class="search-area">
+  <input 
+    type="text" 
+    name="time-search" 
+    id="userInput"
+    placeholder="enter date"
+    ><button onclick="navigate()">&RightTriangle;</button>
+</div>
+
+<div class="container seperate">
+  <div class="seperate">
+    <h2>Example Usage:</h2>
+    <ul>
+      <li><a href="api/2015-12-25" class="better-link">[project url]/api/2015-12-25</a></li>
+      <li><a href="api/1451001600000" class="better-link">[project url]/api/1451001600000</a></li>
+    </ul>
+  </div>
+  <div class="seperate">
+      <h2>Example Output:</h2>
+      <p>
+      <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+    </p>
+  </div>
+</div>
+
+</main>
+<hr>
+<footer class="seperate"><a href="https://www.freecodecamp.org/" class="better-link">freeCodeCamp.org</a> timestamp microservice project by <a href="https://github.com/anquitas/anquitas/" class="better-link">anquitas</a></footer>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

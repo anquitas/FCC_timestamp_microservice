@@ -16,8 +16,11 @@ app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + '/views/index.html');
+  res.sendFile(__dirname + '/views/home.html');
 });
+
+
+
 
 
 // your first API endpoint... 
@@ -57,7 +60,7 @@ app.get('/info', (req, res) => {
       version: '0.0.6',
       buildNumber: '2023-09-01'
     }
-  };
+};
   
   res.json(info);
 });

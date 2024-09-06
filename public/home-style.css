@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  background-color: rgb(205, 208, 210);
+  text-align: center;
+}
+
+.search-area{
+  margin-top: 4rem ;
+  margin-bottom: 2rem;
+}
+
+ul {
+	list-style-type:none;
+}
+
+nav li {
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+/* Style the input field */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+/* Add focus effect on input */
+input[type="text"]:focus {
+  border-color: #007BFF;
+}
+
+/* Style the button */
+button {
+  padding: 10.5px 15px;
+  font-size: 18px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seperate {
+  margin-top: 2rem;
+  margin-bottom: 2rem ;
+}
+
+.api-link {
+  color: white;
+  background-color: #4889ac;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 5px;
+  border: 1px solid #4889ac;
+  font-size: 1.5em;
+  border-radius: 10%;
+}
+
+.better-link {
+  text-decoration: none;
+  color: #4889ac;
+}
+
+hr {
+  margin: 5px;
+}
+
+.container {
+	padding: 5px;
+  line-height: 1.8em;
+  font-size: 16px;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+.container h2 {
+  margin-bottom: 2px;
+}
