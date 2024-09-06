@@ -1,15 +1,14 @@
-
+// testing
 console.log('script working')
+
 function navigate() {
-  // Get the value from the input field
+  // get the value
   const userInput = document.getElementById('userInput').value;
-
-  // Construct the route you want to navigate to
+  // construct the route to navigate to
   const route = `api/${userInput}`;
-
-  // Simulate navigation by redirecting the page (or you can use a router if using a framework)
+  // Simulate navigation
   window.location.href = route;
 }
 
-
+// testing after function run
 console.log('script working more')
